@@ -7,6 +7,8 @@ import AppContext from '../../context/AppContext';
 
 function SearchBar() {
 
+  var name=""
+
   const { setProducts, setLoading } = useContext(AppContext);
   const [searchValue, setSearchValue] = useState('');
 
